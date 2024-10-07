@@ -69,11 +69,28 @@ class Employee (name, salary, position, department) {
             totalsalary += getDepartmentSalary(employees);
 
             return departmentsalary;
-            
+
+
+            getDetails(){
+                return 'Name: ${name}, Position: ${position}, Salary: ${salary}'
+            }
         }
     }
 
-    )
+    
  }
+
+ //task 3
+class manager extends employee {
+    manager(name, salary, position, department, bonus) {
+    employee(name, salary, position, department)
+    }
+    getDetails(){
+        return 'Name: ${name}, Position: ${position}, Salary: ${salary}, Bonus: ${bonus}'
+    }
+}
+
+
+    
 
 
