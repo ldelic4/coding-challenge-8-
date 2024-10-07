@@ -91,6 +91,17 @@ class manager extends employee {
 }
 
 
-    
+//task 4
+class department{
+    function calculateTotalSalaryWithBonus (employees) {
+        let totalsalarywithbonus = salary;
+        for (let salary of employee.bonus){
+            totalsalarywithbonus += calculateTotalSalaryWithBonus
+
+        }
+        return totalsalarywithbonus;
+        
+    }
+}
 
 
